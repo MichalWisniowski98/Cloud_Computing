@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
 WORKDIR /app
 EXPOSE 5000
 
@@ -9,12 +9,12 @@ ENV ASPNETCORE_URLS=http://+:5000
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["Docker/DockerExample.WebApp/DockerExample.WebApp.csproj", "Docker/DockerExample.WebApp/"]
-RUN dotnet restore "Docker/DockerExample.WebApp/DockerExample.WebApp.csproj"
+COPY ["DockerExample.WebApp.csproj", "./"]
+RUN dotnet restore "DockerExample.WebApp.csproj"
 COPY . .
-WORKDIR "/src/Docker/DockerExample.WebApp"
+WORKDIR "/src/."
 RUN dotnet build "DockerExample.WebApp.csproj" -c Release -o /app/build
 
 FROM build AS publish
