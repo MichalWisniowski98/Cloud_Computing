@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ProductsDBContext-Web.config Connection String" description="ProductsDBContext Parametry połączenia używane w pliku web.config przez aplikację w celu uzyskiwania dostępu do bazy danych." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=ProductsDBContext-20210620134558; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|ProductsDBContext-20210620134558.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Anita\\source\\repos\\CDVWebApiv6\\CDVWebApiv6\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProductsDBContext']/@connectionString" />
+  </parameter>
+  <parameter name="ProductsDB2Context-Web.config Connection String" description="ProductsDB2Context Parametry połączenia używane w pliku web.config przez aplikację w celu uzyskiwania dostępu do bazy danych." defaultValue="Server=tcp:cdv-srv.database.windows.net,1433;Initial Catalog=CDV-DB;Persist Security Info=False;User ID=Michal;Password=Plewiska2020!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Anita\\source\\repos\\CDVWebApiv6\\CDVWebApiv6\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProductsDB2Context']/@connectionString" />
+  </parameter>
+</parameters>

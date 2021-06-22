@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ten plik jest wykorzystywany przez proces publikowania/pakowania projektu internetowego. Możesz dostosować zachowanie tego procesu
+ poprzez edycję tego pliku MSBuild. Aby dowiedzieć się więcej o tym działaniu, odwiedź stronę https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABu6LTeuVN0eyrTiUA15lcwAAAAACAAAAAAAQZgAAAAEAACAAAAAc81sV6Pv8pEbU0zwvYr7OdcSoKGL1pbox0vjQfYuq9AAAAAAOgAAAAAIAACAAAAAedjCiMBHOnyymZLIk0dhulbOAJPI0lcEEjaatOdtLYYAAAAARKddbAKwP+Pg9ROW6a2gs/tTkhnA+5oS6PMLryk3xy2440RoMu8TdpSzQTMp+AN22uL2wtvIBlNTYpOdBKnfLLn3xG0emnBI8kNvNLH6YiJXqQwKaPcu5Kf+2x/eVAK2TAorlnDPU8Hsbd6wOarrtJ0siDv6LS88NeQiEJOC0m0AAAADQ9k0GAdvIEm2tEdPUCNqyYKd23YlJrt3zwFqJy+HPyiBMmvJjcTiSaZVyPoUR3s8U1ciHJV0gs0BTlK1/6IDY</EncryptedPassword>
+    <History>True|2021-06-20T12:23:11.3478577Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:cdv-srv.database.windows.net, 1433; Initial Catalog=CDV-DB; User ID=Michal; Password=Plewiska2020!" />
+    <AzureDBConnectionStrings Include="Server=tcp:cdv-srv.database.windows.net,1433;Initial Catalog=CDV-DB;Persist Security Info=False;User ID=Michal;Password=Plewiska2020!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30" />
+  </ItemGroup>
+</Project>
