@@ -1,0 +1,9 @@
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\bin\Debug\netcoreapp3.1\ChatApp.DTO.deps.json
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\bin\Debug\netcoreapp3.1\ChatApp.DTO.dll
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\bin\Debug\netcoreapp3.1\ChatApp.DTO.pdb
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\obj\Debug\netcoreapp3.1\ChatApp.DTO.csproj.AssemblyReference.cache
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\obj\Debug\netcoreapp3.1\ChatApp.DTO.AssemblyInfoInputs.cache
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\obj\Debug\netcoreapp3.1\ChatApp.DTO.AssemblyInfo.cs
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\obj\Debug\netcoreapp3.1\ChatApp.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\obj\Debug\netcoreapp3.1\ChatApp.DTO.dll
+C:\Users\Anita\Documents\m\MobileApp\lab5\ChatApp\ChatApp.DTO\obj\Debug\netcoreapp3.1\ChatApp.DTO.pdb
